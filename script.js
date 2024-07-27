@@ -12,12 +12,15 @@ if (holes === "3") {
     let totalPar = -(9 - score);
     if (totalPar === 0) {
         alert(`Good game, ${username}. Your total par was: ${totalPar}`);
+        console.log(`Good game, ${username}. Your total par was: ${totalPar}`);
     } 
     if (totalPar > 0) {
         alert(`Nice try, ${username}. Your total par was: ${totalPar}`);
+        console.log(`Nice try, ${username}. Your total par was: ${totalPar}`);
     }
     if (totalPar < 0) {
         alert(`Great job, ${username}. Your total par was: ${totalPar}`);
+        console.log(`Great job, ${username}. Your total par was: ${totalPar}`);
     }
 } 
 if (holes === "6") {
@@ -30,11 +33,14 @@ if (holes === "6") {
     let totalPar = -(18 - score);
     if (totalPar === 0) {
         alert(`Good game, ${username}. Your total par was: ${totalPar}`);
+        console.log(`Good game, ${username}. Your total par was: ${totalPar}`);
     } 
     if (totalPar > 0) {
         alert(`Nice try, ${username}. Your total par was: ${totalPar}`);
+        console.log(`Nice try, ${username}. Your total par was: ${totalPar}`);
     }
     if (totalPar < 0) {
         alert(`Great job, ${username}. Your total par was: ${totalPar}`);
+        console.log(`Great job, ${username}. Your total par was: ${totalPar}`);
     }
 } 
